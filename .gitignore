@@ -1,0 +1,7 @@
+ML/model2/templates/forecast.html
+ML/model2/app.py
+ML/model2/appw.py
+ML/model2/pump_activation_model.pkl
+ML/model2/templates/index.html
+ML/model2/templates/indexw.html
+ML/model2/templates/result.html

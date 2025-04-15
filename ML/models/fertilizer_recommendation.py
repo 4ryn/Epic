@@ -19,7 +19,6 @@ if not os.path.exists(data_file_path):
 
 # Load the dataset
 data = pd.read_csv(data_file_path)
-
 Soil_Type = data['Soil Type'].unique()
 Crop_Type = data['Crop Type'].unique()
 # print("Soil Types:", Soil_Type)
@@ -87,3 +86,5 @@ fertilizer_name = dtc.predict(user_input)
 
 # Return the prediction as a string
 print(f"Recommended Fertilizer: {fertilizer_name[0]}")
+
+
